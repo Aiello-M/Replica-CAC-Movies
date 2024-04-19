@@ -1,0 +1,296 @@
+/* RESPONSIVE */
+
+@media (max-width: 957px){
+
+    body{
+        background-color: red !important;
+    }
+
+    /* MAIN: HERO */
+    .hero-title{
+        font-size: 5rem ;
+        padding-top: 7rem;
+    }
+
+    .hero-subtitle{
+        font-size: 2.8rem;
+    }
+
+
+    /* FOOTER */
+    .footer-item{
+        margin: 0; /* distancia entre items */
+    }
+    .footer-link{
+        font-size: 1.45rem;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 775px){
+    body{
+        background-color: blue !important;
+    }
+
+
+    /* HEADER  NAVBAR */
+    .header{
+        height: 20vh; /*altura del header fijo */
+        display: flex; /*para centrar caja */
+        justify-content: center;
+    }
+
+    .navbar{
+        margin-top: 0.8rem;
+        flex-direction: column; /*logo y nav en distintas uno debajo del otro */
+        justify-content: center; /*centrar contenido de columna, antes estaba con space between en misma fila row */
+        gap: 1.3rem; 
+    }
+
+    .logo-name{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .nav-item{
+        margin: 0 0.7rem; /*menos distancia entre elementos del nav */
+    }
+
+    .nav-link{
+        font-size: 1.6rem;
+        font-weight: 400;
+        padding: 0.3rem 0.5rem;
+    }
+
+
+
+    /* MAIN: HERO */
+    .hero{
+        height: 83vh;
+        background-position: 0 15vh; /*bajo un poco la img para que se vea mejor */
+        gap: 1.3rem; /*disminuyo la distancia entre elementos de columna */    
+    }
+
+    .hero-title{
+        font-size: 3.8rem ;
+        padding-top: 5rem;
+    }
+
+    .hero-subtitle{
+        font-size: 2.2rem;
+        line-height: 1.5;
+    }
+
+    .hero-btn,
+    .login-btn,
+    .signin-btn{
+        margin-top: 1rem;
+        padding: 1.1rem 2.3rem;
+        font-size: 1.8rem;
+    }   
+
+
+    /* MAIN: BUSCADOR */
+    .search{
+        padding-bottom: 8rem;
+    }
+    
+    .search-title{
+        font-size: 2.43rem;
+    }
+    
+    .search-content{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem 4rem;
+    }
+    
+    .search-input{
+        width: 70%;
+        height: 3.9rem;
+        font-size: 1.6rem;   
+    }
+    
+    .search-btn{
+        padding: 0.7rem 1.5rem; 
+        font-size: 1.6rem;
+    }
+
+
+    /* MAIN: TENDENCIAS & ACLAMADAS*/
+    .tendencias-title,
+    .aclamadas-title{
+        font-size: 3rem;
+    }
+
+    .aclamadas-item{
+        width: 13rem;
+        height: 19rem;
+    }
+
+
+
+    /* FOOTER */
+    .footer{
+        height: 30vh;
+        padding: 2rem;
+    }
+
+    .footer-container{
+        text-align: center;
+    }
+
+    .footer-list{
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.1rem;
+    }
+
+    .footer-link{
+        padding: 0.6rem 0.9rem;
+        &#administrador{
+            margin-left: 0;
+        }   
+    }
+
+
+}
+
+
+
+
+@media (max-width: 615px){
+
+    body{
+        background-color: green !important;
+    }
+
+    /* HEADER NAVBAR */
+    .header,
+    .header-login,
+    .header-signin{
+        height: auto; 
+        padding: 2rem 2%;
+    }
+
+    .navbar{
+        margin: 0rem;
+        gap: 0.5rem; 
+    } 
+
+    .nav-link{
+        font-size: 1.5rem;
+    }
+
+
+    /* MAIN HERO */
+    .hero-title{
+        font-size: 3.7rem ;
+        padding: 5rem 5% 0;
+        /* background-color: RED; */
+    }
+
+
+    /* MAIN: BUSCADOR */ 
+    .search{
+        margin: 4rem 2%;
+    }
+    
+    .search-header{
+        padding: 2rem 0; 
+    }
+
+    .search-title{
+        font-size: 2.1rem;
+    }
+    
+    .search-content{
+        padding: 2rem 5%;
+    }
+    
+
+    /* MAIN: TENDENCIAS & ACLAMADAS*/
+    .tendencias,
+    .aclamadas{
+        margin: 4rem 2%;
+    }
+
+    .tendencias-title,
+    .aclamadas-title{
+        font-size: 2.5rem;
+    }
+    .tendencias-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .tendencias-item{
+        width: 33rem;
+        height: auto; 
+    }
+    
+
+    /* PAGES: LOGIN & SIGNIN */
+    .login-container,
+    .signin-container{
+        width: 80%;
+        margin: 8rem auto 6rem;
+    }
+
+    .login-form,
+    .signin-form{
+        padding: 1rem 0 3rem;
+    }
+
+    form h2{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+@media (max-width: 350px){
+    
+    body{
+        background-color: purple !important;
+    }
+    
+
+    /* HEADER NAVBAR */
+
+    .logo-name{
+        font-size: 1.7rem;
+    }
+    .nav-item{
+        margin: 0 0.5rem; 
+    }
+
+    .nav-link{
+        font-size: 1.3rem;
+    }
+
+
+    /* MAIN HERO */
+    .hero-title{
+        font-size: 3.3rem ;
+    }
+
+    .hero-subtitle{
+        font-size: 2rem;
+        padding: 0 2%;
+    }
+
+    .hero-btn{
+        margin-top: 1rem;
+        padding: 0.8rem 2rem;
+        font-size: 1.5rem;
+    }
+
+} 
