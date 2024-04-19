@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FUENTES ÍCONOS ANIMACIONES-->
+    <link rel="stylesheet" href="./assets/fonts/dmsans/dmsans.css" /> <!--fuente-->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" /> <!--iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> <!--animación ANIMATE-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--animación AOS-->
+    
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="./JS/script.js" defer></script>
+    
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon"/>
+    <title>CAC-MOVIES</title>
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="navbar">  
+
+            <!-- LOGO -->
+            <div class="navbarLogo">
+                <a class="logo-link animate__animated animate__pulse" href="#">
+                    <i class="logo-icon fa-solid fa-clapperboard"></i>
+                    <span class="logo-name">CAC-Movies</span>
+                </a>
+            </div>
+
+            <!-- MENÚ -->
+            <div class="navbar-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tendencias">Tendencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/registrarse.html">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="login" href="./pages/login.html">Iniciar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="main" id="main">
+
+        <!-- 1 -- HERO -->
+        <section class="hero animate__animated animate__zoomIn" >
+            
+            <h1 class="hero-title">Películas y series ilimitadas <br> en un solo lugar</h1>
+            <h3 class="hero-subtitle">Disfrutá donde quieras <br> Cancelá en cualquier momento</h3>
+            <a class="hero-btn" href="./pages/registrarse.html">Registrate</a>
+            
+        </section>
+
+
+        <!-- 2 -- BUSCADOR -->
+        <section class="search"  data-aos="fade-up" data-aos-offset="150" data-aos-delay="50" data-aos-duration="2000" >
+            <!-- HEADER BUSCADOR -->
+            <div class="search-header">
+                <h2 class="search-title">¿Qué estás buscando para ver?</h2>
+            </div>
+
+            <!-- BUSCADOR -->
+            <form class="search-content">
+
+                <input class="search-input" type="text" name="search" id="search" placeholder="Buscar...">
+                <button class="search-btn" type="submit"> 
+                    <a class="search-link" href="#">
+                        Buscar
+                    </a>
+                </button>
+            </form>
+            
+        </section>
+
+
+        <!-- 3 -- TENDENCIAS -->
+        <section class="tendencias" id="tendencias" data-aos="fade-up" data-aos-offset="150" data-aos-delay="50" data-aos-duration="2000">
+
+            <!-- HEADER TENDENCIAS -->
+            <div class="tendencias-header">
+                <h2 class="tendencias-title">Las tendencias de hoy</h2>
+            </div>
+
+            <!-- LISTA TENDENCIAS -->
+            <ul class="tendencias-list">
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia0.jpg" alt="">          
+                        <div class="tendencias-texto"> <h3>Kung Fu Panda</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia01.jpg" alt="">
+                        <div class="tendencias-texto"> <h3>True Detective 3</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia02.jpg" alt="">
+                        <div class="tendencias-texto"> <h3> 1 9 1 7</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia06.webp" alt="">
+                        <div class="tendencias-texto"> <h3>The Witcher</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia04.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>M N P A</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia05.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Desconocido</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia03.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Logan</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia07.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Breaking Bad</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia08.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Kill Bill</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia09.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Peter Pan & Wendy</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia10.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Dark Phoenix</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia11.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>El Hobbit</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia12.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>El viaje de Chihiro</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia13.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Mi vecino Totoro</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia14.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>La Momia 3</h3> </div>
+                    </a>
+                </li>
+                <li class="tendencias-item">
+                    <a class="tendencias-img-link" href="./pages/pelicula.html">
+                        <img class="tendencias-img" src="./assets/img/tendencia15.jpeg" alt="">
+                        <div class="tendencias-texto"> <h3>Brave</h3> </div>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- BOTONES -->
+            <div class="search-btn-container">
+                <button class="tendencias-btn" type="submit"> 
+                    <a class="tendencias-link" href="#"> Anterior </a>
+                </button>
+                <button class="tendencias-btn" type="submit"> 
+                    <a class="tendencias-link" href="#"> Siguiente </a>
+                </button>
+            </div>
+        </section>
+
+
+        <!-- 4-- ACLAMADAS -->
+        <section class="aclamadas" id="aclamadas">
+            
+            <!-- HEADER ACLAMADAS -->
+            <div class="aclamadas-header">
+                <h2 class="aclamadas-title">Las más aclamadas</h2>
+            </div>
+
+            <!-- LISTA ACLAMADAS -->
+            <div class="aclamadas-container">
+                <ul class="aclamadas-list">
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia03.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia08.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia02.jpg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia06.webp" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia01.jpg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia15.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia11.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia14.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia0.jpg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia04.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia09.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia07.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia10.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia11.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia12.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia13.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia03.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia08.jpeg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia02.jpg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia06.webp" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    <li class="aclamadas-item">
+                        <a class="aclamadas-img-link" href="./pages/pelicula.html">
+                            <img class="aclamadas-img" src="./assets/img/tendencia01.jpg" alt="">
+                            <div class="aclamadas-texto"> <h3>Kung Fu Panda</h3> </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+        
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a class="footer-link" href="#">Términos & Condiciones</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="#">Preguntas Frecuentes</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="#">Ayuda</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" id="administrador" href="#">Administrador Películas</a>
+                </li>
+            </ul>
+        </div>
+
+        
+        <div class="footer-subir">
+            <a class="footer-subir-link" href="#main">
+                <i class="footer-icon fa-solid fa-circle-chevron-up"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <!-- JS ANIMACIÓN AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FUENTES ÍCONOS-->
+    <link rel="stylesheet" href="../assets/fonts/dmsans/dmsans.css" /> <!--fuente-->
+    <link rel="stylesheet" href="../assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"/> <!--icono-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> <!--animación-->
+    
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="./JS/script.js" defer></script>
+
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon"/>
+    <title>Iniciar Sesión | CAC-MOVIES</title>
+</head>
+
+<body class="login-body">
+    
+    <!-- HEADER -->
+    <header class="header-login">
+        <a class="logo-link" href="../index.html">
+            <i class="logo-icon fa-solid fa-clapperboard"></i>
+            <span class="logo-name">CAC-Movies</span>
+        </a>    
+    </header>
+
+
+    <!-- MAIN -->
+    <main  id="main" class="main">
+
+        <section  class="login-container animate__animated animate__zoomIn">
+        <form class="login-form"  action="#" method="post">
+
+            <h2 class="login-header">Iniciar Sesión</h2>
+
+            <div> <input type="email" name="email" id="email" placeholder="Email" required />  </div>
+            <div> <input type="password" name="password" id="password" placeholder="Contraseña" required /> </div>
+
+            <div class="login-remember" >
+                <input class="check" type="checkbox" id="remember" required />
+                <label class="check-txt" for="remember">Recordarme</label>
+            </div>
+
+            <div> <input  class="login-btn" type="submit" value="Ingresar" /> </div>
+           
+            <div> <a class="login-forget" href="#">¿Olvidaste tu contraseña?</a> </div>
+            <div> <a class="login-register" href="./registrarse.html">Registrarse</a> </div>
+
+        </form>
+        </section>
+
+    </main>
+
+
+</body>
+</html>
